@@ -9,6 +9,7 @@ export default class ContactCreator extends LightningElement {
     objApiName=Contact_OBJECT;
     objFields=[FNAME_FIELD,LNAME_FIELD,EMAIL_FIELD];
     branch2='branch 2 changes';
+    branch5='branch5';
 
     handleSuccess(event){
         const toastEvent=new ShowToastEvent({
